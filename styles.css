@@ -1,30 +1,9 @@
-body {
+.message {
+    background-color: #e0f9f7;
+    color: #38b2ac;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #fff;
-}
-
-.time-container {
-    text-align: left;
-}
-
-.time {
-    font-size: 96px;
-    color: #00b8a9; /* Teal color for time */
-}
-
-.am-pm {
     font-size: 24px;
-    color: #00b8a9; /* Teal color for AM/PM */
-    margin-top: -20px; /* Adjust the position */
-}
-
-.date {
-    font-size: 24px;
-    color: #555; /* Darker color for the date */
-    margin-top: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
 }
